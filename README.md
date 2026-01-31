@@ -5,11 +5,11 @@ The objective of this project was to integrate fragmented data from three differ
 user demographics, and restaurant metadata, I developed a master dataset that allows for deep analysis of revenue drivers and customer behavior.
 
 Technical Process:
-1. Data Extraction I utilized Python to ingest raw data in CSV and JSON formats. To handle the SQL data, I implemented Regular Expressions (Regex) to programmatically extract restaurant details from raw INSERT statements.
+1. Data Extraction: I utilized Python to ingest raw data in CSV and JSON formats. To handle the SQL data, I implemented Regular Expressions (Regex) to programmatically extract restaurant details from raw INSERT statements.
 
-2. Relational Data Merging I performed multi-stage Left Joins to enrich the 10,000+ order records. This process ensured data consistency while connecting orders to specific user memberships and restaurant cuisines.
+2. Relational Data Merging: I performed multi-stage Left Joins to enrich the 10,000+ order records. This process ensured data consistency while connecting orders to specific user memberships and restaurant cuisines.
 
-3. Data Cleaning I standardized currency formats and date strings to ensure analytical accuracy, resulting in a finalized Master Dataset file.
+3. Data Cleaning: I standardized currency formats and date strings to ensure analytical accuracy, resulting in a finalized Master Dataset file.
 
 Key Business Insights:
 
@@ -30,4 +30,5 @@ final_food_delivery_dataset.csv: The final merged and cleaned output file.
 Source Data: Original files (orders.csv, users.json, restaurants.sql).
 
 Developed by:Shaik Safiya
+
 Environment: Google Colab, Python, Pandas
