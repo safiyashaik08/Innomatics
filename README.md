@@ -12,6 +12,7 @@ Technical Process:
 3. Data Cleaning I standardized currency formats and date strings to ensure analytical accuracy, resulting in a finalized Master Dataset file.
 
 Key Business Insights:
+
 Market Performance Chennai emerged as the highest revenue-generating city specifically among Gold Members.
 
 Product Analytics Mexican cuisine was identified as having the highest Average Order Value (AOV) across the platform.
@@ -21,6 +22,7 @@ Customer Loyalty The data confirms that Gold Members contribute a significantly 
 Quality Correlation The highest volume of orders is concentrated in restaurants maintaining a rating between 4.1 and 4.5.
 
 Repository Contents:
+
 Food_Delivery_Analysis.ipynb: Full Python source code and logic.
 
 final_food_delivery_dataset.csv: The final merged and cleaned output file.
